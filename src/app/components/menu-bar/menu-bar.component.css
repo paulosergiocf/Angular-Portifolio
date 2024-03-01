@@ -1,0 +1,18 @@
+/* .container_menu-bar {
+  position: fixed;
+  top: 0px;
+  width: 100vh;
+  z-index: 1;
+} */
+
+.container_menu-bar>ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.container_menu-bar>ul>li {
+  margin-right: 20px;
+
+}

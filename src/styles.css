@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+#D9B36C amarelo-claro
+#A68A56 amarelo-mostarda
+#BFBFBF cinza-claro
+#8C8C8C cinza-escuro
+#0D0D0D preto
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* valor da borda é contabilizado de borda a borda*/
+  background-color:#0D0D0D;
+  color: #BFBFBF;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0.2px solid #464544;
+}

@@ -1,0 +1,36 @@
+.container-apresentacao {
+
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 60vh;
+  height: 80dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+}
+
+.logo-card > img {
+  width: 70%;
+}
+.titulo-apresentacao {
+  margin-top: 3rem;
+  text-align: center;
+}
+.titulo-apresentacao > h1 {
+  font-size: 2rem;
+}
+.titulo-apresentacao > h2 {
+  font-size: 1.5rem;
+  color: darkorange;
+}
+.texto-apresentacao {
+  margin-top: 1rem;
+}
+
+.texto-apresentacao > p {
+    font-size: 1.2rem;
+    text-justify: auto;
+    line-height: 1.5rem;
+}

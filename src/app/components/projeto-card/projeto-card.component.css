@@ -1,0 +1,44 @@
+.projetos {
+  margin: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  height: 30%;
+}
+
+.info-card, .imagem-card {
+  width: 30%;
+
+}
+.imagem-card {
+  display: flex;
+  justify-content: right;
+}
+
+.imagem-card > img {
+  width: 60%;
+  height: 40%;
+}
+
+.info-card {
+  margin-left: 1rem;
+}
+.info-card > h1 {
+  font-size: 1.5rem;
+}
+.info-card>.descricao-card {
+  margin-top: 1rem;
+  text-justify: auto;
+  line-height: 1.5rem;
+
+}
+.info-card  > .descricao-card > p {
+  color: #BFBFBF;
+
+}
+
+hr {
+  border: 1 solid #353535;
+}

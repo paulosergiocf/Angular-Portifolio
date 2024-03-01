@@ -1,0 +1,31 @@
+
+<div id="inicio" class="container-inicio">
+
+    <app-contato-card
+      telefone={{perfil.contatos.telefone}}
+      email={{perfil.contatos.email}}
+      github={{perfil.contatos.githubUser}}
+      githubUrl={{perfil.contatos.githubUrl}}
+      linkedin={{perfil.contatos.linkedinUser}}
+      linkedinUrl={{perfil.contatos.linkedinUrl}}
+      curriculoUrl={{perfil.contatos.curriculoUrl}}
+    ></app-contato-card>
+
+    <app-apresentacao-card
+      imagem={{perfil.capa}}
+      titulo={{perfil.nome}}
+      subtitulo={{perfil.atividade}}
+      descricao={{perfil.sobre}}
+    ></app-apresentacao-card>
+</div>
+
+
+<div id="projetos" class="projetos-lista">
+  <h1>Projetos</h1>
+  <app-projeto-card *ngFor="let projeto of projetos"
+    [imagem]=projeto.imagem
+    [titulo]=projeto.titulo
+    [descricao]=projeto.descricao
+  ></app-projeto-card>
+
+</div>

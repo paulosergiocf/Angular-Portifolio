@@ -1,0 +1,64 @@
+.container-info {
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 40vh;
+  height: 80dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.img-card {
+  display: flex;
+  justify-content: center;
+}
+
+.img-card > img {
+  border-radius: 10px;
+  width: 30%;
+}
+
+.info-card {
+  margin-top: 5rem;
+}
+
+.info-card> ul {
+  margin-top: 10px;
+  list-style: none;
+}
+
+.info-card > ul > li {
+  border-radius: 1rem;
+  margin-top: 10px;
+  padding: 1rem;
+  background-color: #1b1b1b;
+
+
+}
+.info-card > ul > li > a {
+  color: aliceblue;
+  background-color: #1b1b1b;
+}
+
+.info-card > ul > li > a > img {
+  width: 1rem;
+  margin-right: .5rem;
+  text-decoration: none;
+}
+
+.botao-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.botao-card > a {
+  border-radius: 10px;
+  background-color: bisque;
+  color: #353535;
+  padding: .7rem;
+}
+
+:host ::ng-deep .info-card > ul * {
+  background-color: #1b1b1b;
+}

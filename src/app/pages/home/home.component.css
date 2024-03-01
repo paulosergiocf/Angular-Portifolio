@@ -1,0 +1,25 @@
+.container-inicio {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.projetos-lista {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #181818;
+
+}
+
+.projetos-lista > h1 {
+  text-align: center;
+}
+
+/* No arquivo CSS do seu componente Angular */
+:host ::ng-deep .projetos-lista * {
+  background-color: #181818;
+}
