@@ -67,3 +67,32 @@ hr {
   padding: 0.7rem;
   margin-left: 1rem;
 }
+
+@media only screen and (max-width: 700px) {
+
+  .projetos {
+      margin: 2rem;
+      padding: 0rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .info-card, .imagem-card {
+      width: 100%;
+      justify-content: center;
+
+    }
+
+    .imagem-card>img {
+      width: 80%;
+      height: none;
+      margin-bottom: 1rem;
+    }
+
+    .info-card>h1 {
+      font-size: 1.3rem;
+      text-align: center;
+    }
+}

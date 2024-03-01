@@ -23,3 +23,23 @@
 :host ::ng-deep .projetos-lista * {
   background-color: #181818;
 }
+
+@media only screen and (max-width: 700px) {
+
+  .container-inicio {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .projetos-lista {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #181818;
+  }
+
+}
