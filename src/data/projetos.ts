@@ -53,4 +53,23 @@ export const projetosData: Projeto[] = [
       },
     ],
   },
+
+  {
+    id: '4',
+    titulo: 'Calculadora de Área',
+    imagem:
+      'https://user-images.githubusercontent.com/49497668/134603520-d42185ba-c087-41d1-899e-9b94777af7f4.png',
+    descricao:
+      'Esta calculadora foi criada com o objetivo de facilitar conversões de área mais utilizadas em certidões de registro de imóveis rurais no estado do paraná.',
+    stacks: [
+      {
+        nome: 'python',
+        imagem: '',
+      },
+      {
+        nome: 'Tkinter',
+        imagem: '',
+      },
+    ],
+  },
 ];

@@ -1,5 +1,7 @@
 # Portifolio
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4b72e61b-62c6-407e-a4fb-1ea035369734/deploy-status)](https://app.netlify.com/sites/paulosergiocf/deploys)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
 ## Development server
