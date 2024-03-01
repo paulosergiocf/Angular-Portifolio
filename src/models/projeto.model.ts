@@ -6,4 +6,6 @@ export interface Projeto {
   imagem: string;
   descricao: string;
   stacks: Stack[];
+  deploy: string;
+  repositorio: string;
 }
