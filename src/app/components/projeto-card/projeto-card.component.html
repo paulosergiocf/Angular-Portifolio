@@ -10,5 +10,12 @@
     <div class="descricao-card">
       <p>&nbsp;&nbsp;&nbsp;&nbsp;{{descricao}}</p>
     </div>
-    <div class="tecnologia-card"></div>
+    <div class="tecnologia-card">
+        <img *ngFor="let stack of stacks" src={{stack.imagem}} />
+
+    </div>
+    <div class="botoes">
+      <a *ngIf="deploy !== ''" href={{deploy}}>Deploy</a>
+      <a *ngIf="repositorio !== ''" href={{repositorio}}>Repositorio</a>
+    </div>
 </div>
