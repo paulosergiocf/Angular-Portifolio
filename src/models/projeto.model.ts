@@ -1,7 +1,7 @@
 import { Stack } from "./stack.model";
 
 export interface Projeto {
-  id: string;
+  id: number;
   titulo: string;
   imagem: string;
   descricao: string;

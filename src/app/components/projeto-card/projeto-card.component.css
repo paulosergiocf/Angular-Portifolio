@@ -1,11 +1,26 @@
 .projetos {
   margin: 1rem;
   padding: 2rem;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  height: 30%;
+  height: 40vh;
+  border: #252525 solid 1px;
+  border-radius: 2rem;
+  background-color: #161616;
+
+}
+
+:host ::ng-deep .projetos * {
+  background-color: #161616;
+}
+.projetos-direcao-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.projetos-direcao-rigth {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .info-card, .imagem-card {
@@ -68,6 +83,11 @@ hr {
   margin-left: 1rem;
 }
 
+.botoes>a:hover {
+  border: darkorange solid 1px;
+  color: darkorange;
+}
+
 @media only screen and (max-width: 700px) {
 
   .projetos {
@@ -77,11 +97,17 @@ hr {
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
+      border: none;
+      height: auto;
+      background-color: #181818;
     }
-
+    :host ::ng-deep .projetos * {
+      background-color: #181818;
+    }
     .info-card, .imagem-card {
       width: 100%;
       justify-content: center;
+      align-items: center;
 
     }
 

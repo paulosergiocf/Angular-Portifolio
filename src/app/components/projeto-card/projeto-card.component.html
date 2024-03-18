@@ -1,5 +1,5 @@
 
-<div class="projetos">
+<div class="projetos projetos-direcao" [ngClass]="{'projetos-direcao-left': id % 2 === 0, 'projetos-direcao-rigth': id % 2 !== 0}">
   <div class="projeto"></div>
   <div class="imagem-card">
     <img src={{imagem}} alt="logo-projeto">

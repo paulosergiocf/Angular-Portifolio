@@ -22,6 +22,7 @@
 <div id="projetos" class="projetos-lista">
   <h1>Projetos</h1>
   <app-projeto-card *ngFor="let projeto of projetos"
+    [id]=projeto.id
     [imagem]=projeto.imagem
     [titulo]=projeto.titulo
     [descricao]=projeto.descricao

@@ -2,7 +2,7 @@ import { Projeto } from "src/models/projeto.model";
 
 export const projetosData: Projeto[] = [
   {
-    id: '1',
+    id: 1,
     titulo: 'Download Musicas Youtube',
     imagem:
       'https://github.com/paulosergiocf/Portifolio/assets/49497668/50933eb6-a77b-4e4b-b2d6-057918b03d66',
@@ -21,7 +21,7 @@ export const projetosData: Projeto[] = [
   },
 
   {
-    id: '2',
+    id: 2,
     titulo: 'Blog',
     imagem:
       'https://github.com/paulosergiocf/Portifolio/assets/49497668/8eccf821-5f62-42db-9155-a1b97b5b83b9',
@@ -39,7 +39,7 @@ export const projetosData: Projeto[] = [
   },
 
   {
-    id: '3',
+    id: 3,
     titulo: 'Amigo Secreto',
     imagem:
       'https://github.com/paulosergiocf/Portifolio/assets/49497668/c259b7b8-e9ce-4fff-ac93-6edf4cf3d7a2',
@@ -67,7 +67,7 @@ export const projetosData: Projeto[] = [
   },
 
   {
-    id: '4',
+    id: 4,
     titulo: 'Calculadora de Área',
     imagem:
       'https://github.com/paulosergiocf/Portifolio/assets/49497668/af56875e-60fb-4a5e-bfa3-a9d805139e54',
@@ -85,7 +85,7 @@ export const projetosData: Projeto[] = [
   },
 
   {
-    id: '4',
+    id: 5,
     titulo: 'Desenhar com Azimutes/Rumos e distâncias no CAD.',
     imagem:
       'https://github.com/paulosergiocf/Portifolio/assets/49497668/017ed003-8b7f-4520-a06c-428d0b27dfc9',

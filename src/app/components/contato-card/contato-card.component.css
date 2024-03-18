@@ -41,6 +41,15 @@
   background-color: #1b1b1b;
 }
 
+.info-card>ul>li:hover {
+  border: darkorange solid 1px;
+  color: darkorange;
+}
+
+.info-card>ul>li>a:hover {
+  color: darkorange;
+}
+
 .info-card > ul > li > a > img {
   width: 1rem;
   margin-right: .5rem;

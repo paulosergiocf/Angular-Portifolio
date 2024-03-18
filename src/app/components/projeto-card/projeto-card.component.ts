@@ -9,6 +9,8 @@ import { Stack } from 'src/models/stack.model';
 export class ProjetoCardComponent implements OnInit {
 
   @Input()
+  id: number = 0;
+  @Input()
   imagem: string = '';
 
   @Input()
